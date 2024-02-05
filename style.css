@@ -11,7 +11,7 @@ body {
 #main {
   position: relative;
   overflow: hidden;
-  background-color: #083ed8;
+  background-color: #0845e4;
 }
 @font-face {
   font-family: a;
@@ -62,4 +62,43 @@ body {
   border: 0.1px solid #ffffff4a;
   font-family: a;
   font-size: 1vw;
+}
+#page1-bottom {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  /* width: 50vw; */
+}
+#page1-bottom h1 {
+  color: #fff;
+  font-family: a;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  font-size: 6vw;
+  line-height: 14vh;
+  margin-bottom: 10vh;
+}
+#page1-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
+#page1-bottom-inner h4 {
+  color: #fff;
+  font-family: a;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
+#page1-bottom-inner button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  color: #0b48ed;
+  font-size: 1.3vw;
+  font-family: a;
+  text-transform: uppercase;
 }
