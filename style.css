@@ -102,3 +102,26 @@ body {
   font-family: a;
   text-transform: uppercase;
 }
+/*page 2 begin here*/
+#page2 {
+  display: flex;
+  align-items: start;
+  font-family: a;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  padding: 0vw 10vw;
+}
+#page2 h2 {
+  margin-bottom: 2.5vw;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+#page2 h1 {
+  font-weight: 100;
+  font-size: 3.9vw;
+  line-height: 90px;
+}
