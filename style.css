@@ -11,7 +11,7 @@ body {
 #main {
   position: relative;
   overflow: hidden;
-  background-color: #0845e4;
+  background-color: #1137ca;
 }
 @font-face {
   font-family: a;
@@ -19,11 +19,11 @@ body {
 }
 @font-face {
   font-family: b;
-  src: url(./Assets/KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+  src: url("./Assets/KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf");
 }
 @font-face {
   font-family: c;
-  src: url(./Assets/KFOmCnqEu92Fr1Mu4mxK\\(1\).ttf);
+  src: url("./Assets/KFOmCnqEu92Fr1Mu4mxK\\(1\).ttf");
 }
 #page1 {
   height: 100vh;
@@ -59,7 +59,7 @@ body {
   color: white;
   background-color: transparent;
   border-radius: 50px;
-  border: 0.1px solid #ffffff4a;
+  border: 1px solid #ffffff9a;
   font-family: a;
   font-size: 1vw;
 }
@@ -114,6 +114,7 @@ body {
   width: 100vw;
   flex-direction: column;
   padding: 0vw 10vw;
+  background-color: #0a3cee;
 }
 #page2 h2 {
   margin-bottom: 2.5vw;
@@ -124,4 +125,28 @@ body {
   font-weight: 100;
   font-size: 3.9vw;
   line-height: 5vw;
+  color: #dadada69;
+}
+
+#page3 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#page3 > canvas {
+  max-height: 100vh;
+  max-width: 100vw;
+  position: relative;
+}
+
+#page4 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  font-family: a;
+  height: 100vh;
+  width: 100vw;
 }

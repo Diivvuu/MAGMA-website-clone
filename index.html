@@ -16,7 +16,7 @@
   </head>
   <body>
     <div id="main">
-      <div id="page1">
+      <div data-scroll data-scroll-speed="-5" id="page1">
         <nav>
           <div class="left-nav">
             <img src="./Assets/Screenshot 2023-05-30 220719.png" alt="" />
@@ -56,8 +56,32 @@
           information into a DTT®.
         </h1>
       </div>
+      <div id="page3">
+        <canvas></canvas>
+      </div>
+      <div id="page4">
+        <h3>CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h3>
+        <h1>
+          Users connect directly to the DTT without any intermediaries. As
+          Stakeholder, they have the power to upload and verify information that
+          enriches the Digital Twin Token. A Stakeholder's ability to access
+          validated-data to perform tasks depends on their specific role.
+        </h1>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
