@@ -114,7 +114,7 @@ body {
   width: 100vw;
   flex-direction: column;
   padding: 0vw 10vw;
-  background-color: #0a3cee;
+  background-color: #133acd;
 }
 #page2 h2 {
   margin-bottom: 2.5vw;
@@ -149,4 +149,16 @@ body {
   font-family: a;
   height: 100vh;
   width: 100vw;
+  background-color: #1137ca;
+}
+#page4 h3 {
+  margin-left: 10vw;
+  font-weight: 100;
+  margin-bottom: 2vw;
+}
+#page4 h1 {
+  margin-left: 10vw;
+  /* margin-right: 15vw; */
+  font-weight: 100;
+  font-size: 3.8vw;
 }
