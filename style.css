@@ -309,3 +309,27 @@ body {
   width: 100vw;
   background-color: #0a3cce;
 }
+.right10 {
+  height: 100%px;
+  width: 65%;
+  position: relative;
+  left: 37%;
+}
+.right10-inner {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 33.3%;
+  width: 100%;
+  font-family: a;
+  color: #fff;
+}
+.right10-inner h1 {
+  font-size: 1.8vw;
+  font-weight: 900;
+}
+.right10-inner > p {
+  font-size: 1.5vw;
+  font-weight: 100;
+  width: 80%;
+}
