@@ -452,7 +452,7 @@ body {
 }
 
 #page13 {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   background-color: #0f0f17;
   font-family: a;
@@ -468,18 +468,119 @@ body {
 }
 #page13 button {
   font-size: larger;
-  padding: 1.5vw 3vw;
+  padding: 1.1vw 2.5vw;
   border: none;
   background-color: #0a3cce;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 #page14 {
   position: relative;
-  height: 100vh;
+  height: 115vh;
   width: 100vw;
   background-color: #0f0f17;
 }
 .page14-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: a;
+  padding: 0vw 10vw;
+  height: 17%;
+  width: 100%;
+  border-top: 0.1px solid #ffffff2a;
+  border-bottom: 0.1px solid #ffffff2a;
+}
+.page14-inner > h1 {
+  font-size: 2.5vw;
+  font-weight: 100;
+  position: relative;
+  z-index: 99;
+}
+.page14-inner > i {
+  font-size: 2.4vw;
+  font-weight: 100;
+  position: relative;
+  z-index: 99;
+}
+.center14 {
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  background-color: #0a3cce;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all ease 0.5s;
+}
+.page14-inner:hover .center14 {
+  height: 100%;
+}
+#footer {
+  display: flex;
+  color: #fff;
+  position: relative;
+  justify-content: space-between;
+  padding: 4vw 10vw;
+}
+.footer-left {
+  display: flex;
+  justify-content: start;
+  gap: 8vw;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.4vw;
+  justify-content: start;
+}
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  line-height: 2.4vw;
+}
+.footer-left h1 {
+  font-family: a;
+  font-weight: 100;
+  font-size: 1vw;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2vw;
+  /* text-align: center; */
+}
+.footer-right h1 {
+  font-family: a;
+  font-weight: 100;
+  font-size: 2.5vw;
+}
+input[type="email"] {
+  border: none;
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+  font-size: 1vw;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #0f0f17;
+  color: #fff;
+}
+.footer-right > i {
+  position: relative;
+  left: 45%;
+  bottom: 40%;
+}
+#footer h4 {
+  font-family: a;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  bottom: 5%;
+  left: 43%;
 }
